@@ -1,0 +1,32 @@
+body {
+	background-image: url(../images/0d6a38869db452f6f12729067a4e9803.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: sans-serif;
+	height: 100vh;
+}
+
+#button-bucket .btn {
+	margin: .33%;
+}
+
+.btn {
+	background-color: teal;
+	color: #FEFCE8;
+}
+
+img {
+	margin: 1%;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 1.7rem;
+	background-color: #FEFCE8;
+	color: #3D2117;
+	padding: 0 .33%;
+	border-radius: 3px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang='en-us'>
+	<head>
+	  <meta charset='UTF-8'>
+	  <title>Gif Viewer!</title>
+	  <link rel='stylesheet' href='assets/css/bootstrap.min.css'>
+	  <link rel='stylesheet' href='assets/css/style.css'>
+	  <link rel='shortcut icon' type='image/png' href='favicon.png'>
+	  <meta name='viewport' content='width=device-width'>
+	</head>
+	<body>
+	<div class='container-fluid'>
+		<div class='row'>
+			<div class='col-md-12'>
+				<div id='button-bucket'></div>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-4 push-md-8'>
+				<form>
+				  <div class='form-group'>
+				    <label for='formGroupExampleInput' class='bold'>Add a Superhero!</label>
+				    <input type='text' class='form-control' id='superhero-input' placeholder='Silver Surfer'>
+				  </div>
+				  <button type='submit' class='btn'>Submit</button>
+				</form>
+			</div>
+			<div class='col-md-8 pull-md-4'>
+				<div id='gif-bucket'></div>
+			</div>
+		</div>
+	</div>
+	</body>
+	<script type='text/javascript' src='assets/js/jquery-2.1.4.min.js'></script>
+	<script type='text/javascript' src='assets/js/app.js'></script>
+</html>
