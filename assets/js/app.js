@@ -53,7 +53,7 @@ $(() => {
 
   //Gets the gifs for the button pressed and displays the first 10 of them on the page
   function showGifs(param) {
-    let queryURL = 'http://api.giphy.com/v1/gifs/search?q=' + param + '&limit=10&api_key=dc6zaTOxFJmzC';
+    let queryURL = 'https://api.giphy.com/v1/gifs/search?q=' + param + '&limit=10&api_key=dc6zaTOxFJmzC';
     $.ajax({
       url: queryURL,
       method: 'GET'
