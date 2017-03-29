@@ -60,11 +60,14 @@ $(() => {
     }).done(function(response) {
       $('#gif-bucket').html('');
       for (let i=0; i < 10; i++) {
-        $('#gif-bucket').append($('<img>').attr({
+        let newDiv = $('<div>').addClass('giphy-div');
+        newDiv.append($('<p>').addClass('rating').text('Rating: ' + response.data[i].rating));
+        newDiv.append($('<img>').attr({
           src: response.data[i].images.fixed_height_still.url,
           'data-gif': response.data[i].images.fixed_height.url,
           'data-still': response.data[i].images.fixed_height_still.url
-        }))
+        }));
+        $('#gif-bucket').append(newDiv);
       }
     });
   }

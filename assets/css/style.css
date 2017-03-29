@@ -22,6 +22,14 @@ img {
 	margin: 1%;
 }
 
+.rating {
+	font-weight: bold;
+	background-color: #3D2117;
+	color: #FEFCE8;
+	padding: 0 .33%;
+	border-radius: 3px;
+}
+
 .bold {
 	font-weight: bold;
 	font-size: 1.7rem;
@@ -29,4 +37,9 @@ img {
 	color: #3D2117;
 	padding: 0 .33%;
 	border-radius: 3px;
+}
+
+.giphy-div {
+	display: inline-block;
+	margin: 1rem 1rem;
 }
